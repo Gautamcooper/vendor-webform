@@ -233,54 +233,5 @@ $('#submit-button').click(function(){
             }
             data_for_table.push(JS_for_data);
         }
-        // var data = {
-        //     "UserName": "admin",
-        //     "UserPassword": "admin"
-        // }
-        // var url = "https://038819-sales-enterprise.creatio.com/ServiceModel/AuthService.svc/Login";
-        // fetch(url, {
-        //     mode: 'no-cors',
-        //     method: 'POST',
-        //     body: data
-        // }).then(res => res.json())
-        //     .then(response => {
-        //         console.log(response);                   
-        //     }).catch(error => console.error('Error h:', error));
-        // } 
-        var settings = {
-            "url": "https://038819-sales-enterprise.creatio.com/ServiceModel/AuthService.svc/Login",
-            "method": "POST",
-            "timeout": 0,
-            "headers": {
-              "Content-Type": "application/json",
-              "Accept": "application/json",
-              "Cookie": "BPMLOADER=fk5vwkaqaby5yaoajv5nihsl; UserName=97|100|109|105|110; .ASPXAUTH=0B29295269F02DBBAA54F70347909F2CDA7DD804DD8FF92540CEDA235856D85B75FCD61891584FC1E7239759E7512F7F3E88777E33F7A1E9A9F68B62D0AF72B4A519EE5DE170D4970795C018715262DDA5856D7BD7B2D015CF9AE9E512F83171880102B430C0DF06957B0E1F6F754F5F15953713D86F2ACC1A2ECFCE1DEF766B4375103F453F61B09A39CA00C834F33C5A8F7283FF42BD98CDE8C2126E7555D952DF1C5BE917F8E8F065B1F620F0B5567A51F8034610C68B0FA8D28857368202FEF85B2B76F21C392FE2AF8D32421CCCDE2F23BDAE09DEBF518DC196A080E67DEEB41EA232100ED252E526180EBC5CE8E35A78F2A7687EFBE166FE3E616E51824611444373054B468FB2F2E0D87FCD5404891C4E0FDDEECA23617942E9A276D96C3AED54A8C161224B4647267889CB9B9948885795CB2D696B765AA46A8C31BC07058324; BPMCSRF=djDVOUl5r4EIOVBIVJs5nu"
-            },
-            "data": JSON.stringify({"UserName":"admin","UserPassword":"admin"}),
-          };
-          
-          $.ajax(settings).done(function (response) {
-            console.log(response);
-          });
-        // var myHeaders = new Headers();
-        // myHeaders.append("Content-Type", "application/json");
-        // myHeaders.append("Accept", "application/json");
-        // myHeaders.append("Access-Control-Allow-Origin", "true");
-        // myHeaders.append("Cookie", "BPMLOADER=fk5vwkaqaby5yaoajv5nihsl; UserName=97|100|109|105|110; .ASPXAUTH=63D6292DBDB30CAEE7ECA2C3821C1C9C594CF83CC04C86A377BF93FDFE30684B5918CFA51A9D17B60A9F6D9170E14653B6A363F4944FBC8CF64C5E251C8D9B76A078AEC02C92F1C505FDAECDE7203907DBB82C120B07A826CA7A95FCCF2011BA6F748E25FF15DCBE4F7117183D0C9F7B2F1BA1BDA07069DE5E54F7D6E8826EF64FFC8E210A0C7F651AEAAA3D3EC16D44194C6FA4BCD98ED3EB6921CA068138E92D49D2B168C11B98AFD3B0FCFD7D9C98107DFE7FBD8E2B9CAC0A6FD3D66ECEEB5239416BF2BF1A38B760C8979846E6DD548F49505140F54F7001FB6716D932C745A015208918AE98081CB68C90B4BAD13908F93A26F47D3DD0F91A26C57283F1EE034DCAD307145C6F32FAA8DC5A7EE93BD00B2786C36235DB39C67659A2FA6AAA6A858304AB4764FE6FAF1ACE962EBD456D5C52FF84F00DC9E4338A7B889F7BA93E52DE; BPMCSRF=5r5G5mJ2kb3GikeHhaWeY.");
-
-        // var raw = JSON.stringify({"UserName":"admin","UserPassword":"admin"});
-
-        // var requestOptions = {
-        // mode:'no-cors',
-        // method: 'POST',
-        // headers: myHeaders,
-        // body: raw,
-        // redirect: 'follow'
-        // };
-
-        // fetch("https://038819-sales-enterprise.creatio.com/ServiceModel/AuthService.svc/Login", requestOptions)
-        // .then(response => response.text())
-        // .then(result => console.log(result))
-        // .catch(error => console.log('error', error));
-         }
+    }
     });

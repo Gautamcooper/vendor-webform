@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "aba6c69f-11fe-4827-9464-aad0ada479b5",
+		"name": "Apeejay Webform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://038819-sales-enterprise.creatio.com/0/DataService/json/Reply/InsertQuery",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "BPMCSRF",
+						"value": "QTRYpmVoarCOhkRxticdnO",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"ColumnValues\":{\r\n      \"Items\":{\r\n        \r\n        \"UsrCompanyName\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"PayTM\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrPrefix\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrFirstName\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrMobileNumber\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrMobileNumber2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrEmailID\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrEmailID2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrAddressLineOne\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrGSTStateCode\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrLastName\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrZipPostalCode\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrAddressLineTwo\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrTelephoneNumber\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrFaxNumber\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrAddressLine1\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrAddressLine2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrFaxNumber2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrZipPostalCode2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrTelephoneNumber2\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrTAN\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrGSTNumber\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrSME\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrPAN\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":1,\r\n               \"Value\":\"YashRaj Films\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrAreyouRegisteredforGST\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":12,\r\n               \"Value\":1,\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            },\r\n            \"UsrCountry\":{\r\n            \"ExpressionType\":2,\r\n            \"ColumnPath\":null,\r\n            \"Parameter\":{\r\n               \"DataValueType\":10,\r\n               \"Value\":\"Akshit\",\r\n               \"ArrayValue\":null,\r\n               \"ShouldSkipConvertion\":false\r\n            },\r\n            \"FunctionType\":0,\r\n            \"MacrosType\":0,\r\n            \"FunctionArgument\":null,\r\n            \"DatePartType\":0,\r\n            \"AggregationType\":0,\r\n            \"AggregationEvalType\":0,\r\n            \"SubFilters\":null\r\n            }\r\n\r\n        \r\n         \r\n        }\r\n   },\r\n   \"RootSchemaName\":\"UsrVendorRegistration\",\r\n   \"OperationType\":1\r\n}"
+				},
+				"url": {
+					"raw": "https://038819-sales-enterprise.creatio.com/0/DataService/json/Reply/InsertQuery",
+					"protocol": "https",
+					"host": [
+						"038819-sales-enterprise",
+						"creatio",
+						"com"
+					],
+					"path": [
+						"0",
+						"DataService",
+						"json",
+						"Reply",
+						"InsertQuery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://038819-sales-enterprise.creatio.com/ServiceModel/AuthService.svc/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"UserName\": \"admin\",\r\n\t\"UserPassword\": \"admin\"\r\n}"
+				},
+				"url": {
+					"raw": "https://038819-sales-enterprise.creatio.com/ServiceModel/AuthService.svc/Login",
+					"protocol": "https",
+					"host": [
+						"038819-sales-enterprise",
+						"creatio",
+						"com"
+					],
+					"path": [
+						"ServiceModel",
+						"AuthService.svc",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
